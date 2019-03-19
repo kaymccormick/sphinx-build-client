@@ -1,0 +1,5 @@
+doc-build
+node_modules
+*~
+.\#*
+\#*\#
