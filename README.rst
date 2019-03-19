@@ -62,4 +62,4 @@ Full documentation_.
 
 .. _Sphinx: http://www.sphinx-doc.org
 .. _7381: https://bugs.chromium.org/p/v8/issues/detail?id=7381
-.. documentation_: https://static.kaymccormick.com/docs/sphinx-build-client/
+.. _documentation: https://static.kaymccormick.com/docs/sphinx-build-client/
