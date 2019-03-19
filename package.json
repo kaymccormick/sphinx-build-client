@@ -1,20 +1,29 @@
 {
-    "name": "sphinx-build-client",
-    "version": "0.2.0",
-    "main": "index.js",
-    "license": "MIT",
-    "keywords": ["sphinx", "documentation", "docutils"],
-    "bugs": {
-	"url": "https://github.com/kaymccormick/sphinx-build-client/issues"
-    },
-    "homepage": "https://static.kaymccormick.com/docs/sphinx-build-client/",
-    "author": { "name": "Kay McCormick", "email": "kay@kaymccormick.com",
-		"url": "https://www.kaymccormick.com" },
-
-    "devDependencies": {
-	"grunt": "^1.0.3",
-	"grunt-cli": "^1.3.2",
-	"jest": "^23.6.0"
-    },
-    "repository": "https://github.com/kaymccormick/sphinx-build-client.git"
+   "name": "sphinx-build-client",
+   "version": "0.2.0",
+   "main": "index.js",
+   "license": "MIT",
+   "readme": "Node interface to Sphinx documentation generator (https://www.sphinx-doc.org/). See doc/index.rst",
+   "keywords": [
+      "sphinx",
+      "documentation",
+      "docutils"
+   ],
+   "bugs": {
+      "url": "https://github.com/kaymccormick/sphinx-build-client/issues"
+   },
+   "homepage": "https://static.kaymccormick.com/docs/sphinx-build-client/",
+   "author": {
+      "name": "Kay McCormick",
+      "email": "kay@kaymccormick.com",
+      "url": "https://www.kaymccormick.com"
+   },
+   "devDependencies": {
+      "grunt": "^1.0.3",
+      "grunt-cli": "^1.3.2",
+      "grunt-sphinx-plugin": "^0.2.0",
+      "jest": "^24.5.0",
+      "jest-cli": "^24.5.0"
+   },
+   "repository": "github:kaymccormick/sphinx-build-client"
 }
