@@ -10,13 +10,6 @@ module and is missing key features. It does get the job done and it
 provides a Promise-based interface to sphinx-build while abstracting
 away some of the interprocess communication (IPC) details.
 
-Feedback Wanted
----------------
-
-You may think this module is silly or that it sucks. I might
-agree. But I am interested in any features or changes that make sense
-especially from the perspective of experienced JS developers.
-
 Usage
 -----
 
