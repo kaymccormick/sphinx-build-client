@@ -58,59 +58,8 @@ loop from the child. Applications with a large memory footprint may
 find frequent child_process.spawn() calls to be a bottleneck. For more
 information, see V8 issue 7381_.
 
-Reference
----------
-
-.. js:module:: sphinxBuildClient
-
-.. js:function:: sphinxBuild(srcdir, outdir[, options])
-
-   :param String srcdir: The source directory contining the Sphinx ReST source files.
-   :param String outdir: The output directory to receive the output files.
-   :param Object options: Options for the build.
-
-.. js:attribute:: options.forceAll
-
-   Boolean. Equiv. to supplying '-a': write all files (default: only write new and changed files)
-
-.. js:attribute:: options.builder
-
-   String. Builder to use (xml, html, epub, etc).
-   
-.. js:attribute:: options.freshEnv
-
-  Boolean. don't use a saved environment, always read all files.
-  
-.. js:attribute:: options.doctreeDir
-
-  String. path for the cached environment and doctree files (default: ``OUTPUTDIR/.doctrees``)
-
-.. js:attribute:: options.jobs
-
-  String. build in parallel with N processes where possible (special value ``auto`` will set `N` to cpu-count)
-
-.. js:attribute:: options.noConfig
-
-  use no config file at all, only options specified in 'defineSettings' key.
-.. js:attribute:: options.defineSettings
-
- An object supplying values for settings - will be transformed into -D key=value for each property.
-
-.. js:attribute:: options.defineHtmlTemplateVars
-
- An object supplying values for HTML template variaables. Transformed into -A key=value for each property.
-
-.. js:attribute:: options.tags
-
- Array of String. define tag: include "only" blocks with TAG (``-t``)
-
-.. js:attribute:: options.quiet
-
- Boolean. no output on stdout, just warnings on stderr.
-
-.. js:attribute:: options.reallyQuiet
-
- Boolean. no output at all, not even warnings
+Full documentation_.
 
 .. _Sphinx: http://www.sphinx-doc.org
 .. _7381: https://bugs.chromium.org/p/v8/issues/detail?id=7381
+.. documentation_: https://static.kaymccormick.com/docs/sphinx-build-client/
