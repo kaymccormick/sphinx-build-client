@@ -5,8 +5,7 @@ What it is
 
 This node.js module is an interface to the Sphinx_ *Python
 Documentation Generator*.  It exists primarily to service the
-`grunt-sphinx-plugin` and for testing purposes. It is a very immature
-module and is missing key features. It does get the job done and it
+`grunt-sphinx-plugin` and for testing purposes. It does get the job done and it
 provides a Promise-based interface to sphinx-build while abstracting
 away some of the interprocess communication (IPC) details.
 
