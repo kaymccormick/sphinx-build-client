@@ -19,7 +19,7 @@
       "url": "https://www.kaymccormick.com"
    },
    "devDependencies": {
-      "grunt": "^1.0.3",
+      "grunt": "^1.3.0",
       "grunt-cli": "^1.3.2",
       "grunt-sphinx-plugin": "^0.2.0",
       "jest": "^24.5.0",
